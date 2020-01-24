@@ -32,10 +32,10 @@ consulta.execute("select * from tabla")
 
 para evitar esto debe usar un comparador de **contenido**  en el caso que utilize ```==```  usted tiene un enorme fallo de seguridad.
 
-### ¿Porque es un agujero de seguridad utilizar ```==``` ?
+### ¿Porque es un agujero de seguridad el ```==``` ?
 Porque es un operador que compara la direccion de memoria ram del objeto no compara por el valor que contiene la variable.
 
-**Realizando una comparacion correcta**
+**Utilizando un compardor de contenido**
  
  ```java
         if(mensaje.equals("contenido"))
