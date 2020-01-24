@@ -35,7 +35,7 @@ para evitar esto debe usar un comparador de **contenido**  en el caso que utiliz
 ### ¿Porque es un agujero de seguridad el ```==``` ?
 Porque es un operador que compara la direccion de memoria ram del objeto no compara por el valor que contiene la variable.
 
-**Utilizando un compardor de contenido**
+**Comparador de contenido para una consulta correcta**
  
  ```java
         if(mensaje.equals("contenido"))
