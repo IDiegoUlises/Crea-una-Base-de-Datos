@@ -1,6 +1,5 @@
-# Analisis de Datos
+# Crear un base de datos
 
-Mostrararemos como comercializar nuestro producto utilizando tecnicas de mercados que usa en la bolsa de valores de New York en Silocon Valley para que sus servicios sean exitosos.
 
 **Crer la Database:** Crea un archivo el cual contiene nuestros datos.
 
