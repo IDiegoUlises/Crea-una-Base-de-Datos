@@ -1,6 +1,6 @@
 # Analisis de Datos
 
-Para crear una base de datos Sqlite se utiliza el comando ```connect = sqlite3.connect("database.db")``` en esta ocasion no vamos a profundir en el codigo ya que es muy sencillo de implementar vamos a mostrar como comercializar nuestro producto utilizando tecnicas de mercados que usa en la bolsa de valores de New York en Silocon Valley para que sus servicios sean exitosos.
+Mostrararemos como comercializar nuestro producto utilizando tecnicas de mercados que usa en la bolsa de valores de New York en Silocon Valley para que sus servicios sean exitosos.
 
 **Crer la Database:** Crea un archivo el cual contiene nuestros datos.
 
@@ -17,3 +17,17 @@ cursor.execute("""CREATE TABLE product
                    quantity int, comment text)""")
 ```
 
+**Enviar un Consulta:**
+
+```python
+consulta = db.cursor()
+consulta.execute("select * from tabla")
+```
+
+**Seguridad:** El ataque mas comun a la base de datos es **SQL INYECCTOR** que es que el usuario cambia los valores de una consulta para 
+
+* Eliminar la base de datos
+* Cambiar valores de la base de datos
+* Recibir valores restrigindos.
+
+para evitar esto se puede solucionar con verificar 
