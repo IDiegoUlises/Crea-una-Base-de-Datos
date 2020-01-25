@@ -45,6 +45,9 @@ Porque es un operador que compara la direccion de memoria ram del objeto no comp
 ```
 
 
+# Imagen en funcionamiento
+
+![alt text](https://github.com/IDiegoUlises/Crea-una-Base-de-Datos/blob/master/images/database.png)
 
 
 
