@@ -1,13 +1,13 @@
 # Crear un base de datos
 
 
-**Crer la Database:** Crea un archivo el cual contiene nuestros datos.
+**Crer la Database:** Es un archivo cual contiene todos los datos.
 
 ```python
 connect = sqlite3.connect("database.db")
 ```
 
-**Crear una Tabla:** Crear una tabla que contiene los detalles de un producto o servicio.
+**Crear una Tabla:** Crear una tabla
 
 ```python
 
@@ -23,16 +23,16 @@ consulta = db.cursor()
 consulta.execute("select * from tabla")
 ```
 
-**Seguridad:** El ataque mas comun a la base de datos es **SQL INYECCTOR** que se base en que el usuario cambia los valores de una consulta para 
+**Seguridad:** El ataque mas comun para las base de datos es **Sql injection** que es un procedimiento donde un cliente inserta datos fraudulentos para conseguir privilegios que pueden ser 
 
 * Eliminar la base de datos
 * Cambiar valores de la base de datos
-* Recibir datos prohibidos.
+* Recibir datos prohibidos
 
-para evitar esto debe usar un comparador de **contenido**  en el caso que utilize ```==```  usted tiene un enorme fallo de seguridad.
+para evitar el ataque sql injection se debe usar un comparador de **contenido** en el caso que utilize el ```==```  usted tiene un enorme fallo de seguridad.
 
-### ¿Porque es un agujero de seguridad el ```==``` ?
-Porque es un operador que compara la direccion de memoria ram del objeto no compara por el valor que contiene la variable.
+### ¿Porque es un agujero de seguridad usar ```==``` ?
+Porque es un operador que compara la direccion de memoria ram de un objeto no compara el valor que contiene la variable.
 
 **Comparador de contenido para una consulta correcta**
  
