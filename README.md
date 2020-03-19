@@ -32,7 +32,7 @@ consulta.execute("select * from tabla")
 para evitar el ataque sql injection se debe usar un comparador de **contenido** en el caso que utilize el ```==```  usted tiene un enorme fallo de seguridad.
 
 ### ¿Porque es un agujero de seguridad usar ```==``` ?
-Porque es un operador que compara la direccion de memoria ram de un objeto no compara el valor que contiene la variable.
+Porque es un operador que compara la direccion de memoria ram de un objeto no compara la informacion que contiene la variable.
 
 **Comparador de contenido para una consulta correcta**
  
