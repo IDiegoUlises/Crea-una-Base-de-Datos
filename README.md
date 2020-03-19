@@ -20,7 +20,7 @@ cursor.execute("""CREATE TABLE product
 
 ```python
 consulta = db.cursor()
-consulta.execute("select * from tabla")
+consulta.execute("select * from table")
 ```
 
 **Seguridad:** El ataque mas comun para las base de datos es **Sql injection** que es un procedimiento donde un cliente inserta datos fraudulentos para conseguir privilegios que pueden ser 
