@@ -7,7 +7,7 @@
 connect = sqlite3.connect("database.db")
 ```
 
-**Crear una Tabla:** Crear una tabla
+**Crear una Tabla:** Es para asignar donde se guarda la variable y la informacion que se almacenara
 
 ```python
 
@@ -16,7 +16,7 @@ cursor.execute("""CREATE TABLE product
                    quantity int, comment text)""")
 ```
 
-**Enviar un Consulta:**
+**Enviar un Consulta:** Es la comunicacion con la base de datos para realizar acciones administrativas
 
 ```python
 consulta = db.cursor()
